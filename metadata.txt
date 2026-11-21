@@ -1,0 +1,17 @@
+[general]
+name=Aufschluss Suite
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Ein Plugin, drei Module: Aufschluss (Fläche und Punkte), Lageplan (A3/A4), Mappe (Deckblatt)
+about=Vereint die Plugins "Vorgabe der Aufschlüsse", "Lageplan Export" und "Blaue Mappe Deckblatt". Ein Fenster mit drei Buttons und einer Statusanzeige (AZ, Projekt, Fläche, Punkte). Die Module bleiben getrennt und einzeln benutzbar; AZ-Erkennung, Flächenberechnung und Punktzählung kommen aus einem gemeinsamen Kern. Karten (OpenStreetMap Standard / Topo) werden direkt geladen.
+version=0.4.0
+changelog=0.4.0: einheitliche Schriftstufen und Feldhöhen, Ja/Nein-Abfragen, Karte springt zur Auswahl, OSM-Karten direkt, _N1/_N2-Namen, Ausgabe nach Desktop/PV-Geopackage, Aufschluss: ein Layer je Fläche und Typ, Abstand zu Leitungen, RKS gleichmäßig; Lageplan: ISO-Maßstäbe, mehrseitige Vorschau, mehrere Schnitte, Zusatzflächen; Mappe: mehrseitige Vorschau, + Seite, alle gewählten Layer
+author=Chao Wang
+email=
+tags=survey,geotechnical,layout
+homepage=
+tracker=
+repository=
+experimental=True
+deprecated=False
